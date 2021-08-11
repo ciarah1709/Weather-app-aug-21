@@ -1,0 +1,57 @@
+.weather-app {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #00204a;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 3px;
+  max-width: 600px;
+  background-color: #d9faff;
+}
+
+h1 {
+  color: #005792;
+  line-height: 30px;
+  font-size: 40px;
+  font-weight: 30 px;
+  text-align: left;
+  margin: 0;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+li {
+  color: #00204a;
+  display: block;
+  font-size: 20px;
+  font-weight: 80;
+  height: 30px;
+  line-height: 0.5;
+  list-style: none;
+}
+
+.temperature {
+  font-size: 60px;
+  font-weight: 600;
+  color: #005792;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #fd5f00;
+}
+
+.btn:hover {
+  background-color: #fd5f00;
+}
