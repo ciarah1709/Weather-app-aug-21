@@ -64,12 +64,6 @@ let dateElement = document.querySelector("#date");
 let currentTime = new Date();
 dateElement.innerHTML = formatDate(currentTime);
 
-let iconElement = document.querySelector("#icon");
-iconElement.setAttribute(
-  "src",
-  `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2px.png`
-);
-
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
 
