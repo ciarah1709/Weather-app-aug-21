@@ -55,3 +55,7 @@ li {
 .btn:hover {
   background-color: #fd5f00;
 }
+
+.btn:active {
+  background-color: #fd5f00; 
+}
