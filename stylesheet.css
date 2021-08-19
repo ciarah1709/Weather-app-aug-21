@@ -62,7 +62,7 @@ li {
 
 .weather-forecast {
   margin-top:20px;
-padding: 10px;
+padding: 5px;
   text-align: center;
   color: #00204a
 }
@@ -73,9 +73,9 @@ padding: 10px;
 }
 
 .weather-forecast-temperature-min {
- font-size: 15px;
+ font-size: 13px;
 }
 
 .weather-forecast-temperatures {
-  font-size: 15px;
+  font-size: 13px;
 }
