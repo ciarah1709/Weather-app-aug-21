@@ -47,13 +47,14 @@
         <h1 id="city">Tipperary</h1>
         <br />
         <ul>
-          <li>Last updated: <span id="date"></span></li>
+          <li><span id="date"></span></li>
           <li id="description">Sunny</li>
       
         </ul>
         <div class="row">
           <div class="col-6">
             <div class="clear-fix weather-temperature">
+              <img src="" alt="Clear" id="icon" class="float-left" />
               <div class="float-left">
                 <span class="temperature" id="temperature">19</span>
                 <span class="units">
@@ -72,27 +73,20 @@
               <li>Wind speed: <span id="wind"></span>km/h</li>
             </ul>
           </div>
-          <div class="container">
+ <div class="weather-forecast">
             <div class="row">
-              <div class="col weekday">Monday</div>
-              <div class="col weekday">Tuesday</div>
-              <div class="col weekday">Wednesday</div>
-              <div class="col weekday">Thursday</div>
-              <div class="col weekday">Friday</div>
-            </div>
-            <div class="row">
-              <div class="col icons">⛅</div>
-              <div class="col icons">☀️</div>
-              <div class="col icons">⛈️</div>
-              <div class="col icons">🌧️</div>
-              <div class="col icons">☁️</div>
-            </div>
-            <div class="row">
-              <div class="col temperatures">17°</div>
-              <div class="col temperatures">19°</div>
-              <div class="col temperatures">16°</div>
-              <div class="col temperatures">17°</div>
-              <div class="col temperatures">17°</div>
+              <div class="col-2">
+                <div class="weather-forecast-date">Thu</div>
+                <img
+                  src="http://openweathermap.org/img/wn/50d@2x.png"
+                  alt=""
+                  width="42"
+                />
+                <div class="weather-forecast-temperatures">
+                  <span class="weather-forecast-temperature-max"> 18° </span>
+                  <span class="weather-forecast-temperature-min"> 12° </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

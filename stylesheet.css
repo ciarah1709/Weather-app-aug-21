@@ -59,3 +59,23 @@ li {
 .btn:active {
   background-color: #fd5f00; 
 }
+
+.weather-forecast {
+  margin-top: 10px;
+padding: 10px;
+  text-align: center;
+  color: #00204a
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  
+}
+
+.weather-forecast-temperature-min {
+ font-size: 13px;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
