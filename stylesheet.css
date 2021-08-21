@@ -22,6 +22,10 @@ ul {
   padding: 0;
 }
 
+li:first-letter {
+  text-transform: capitalize;
+}
+
 li {
   color: #00204a;
   display: block;
@@ -77,4 +81,8 @@ li {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+
+.small {
+  text-align: center;
 }
