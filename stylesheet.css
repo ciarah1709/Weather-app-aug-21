@@ -13,7 +13,7 @@ h1 {
   line-height: 30px;
   font-size: 40px;
   font-weight: 30 px;
-  text-align: left;
+  text-align: cent;
   margin: 0;
 }
 
@@ -33,7 +33,7 @@ li {
 }
 
 .temperature {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 600;
   color: #005792;
   line-height: 1;
@@ -61,8 +61,8 @@ li {
 }
 
 .weather-forecast {
-padding: 10px;
-  text-align: center;
+  margin: 0 auto;
+  text-align:centre;
   color: #00204a
 }
 
